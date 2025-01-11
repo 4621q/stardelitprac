@@ -1,6 +1,6 @@
 {
   "name": "search-movie",
-  "homepage": "https://github.com/4621q/stardelitprac.git",
+  "homepage": "http://localhost:5173/stardelitpra",
   "private": true,
   "version": "0.0.0",
   "type": "module",
