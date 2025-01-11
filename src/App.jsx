@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css"; // external CSS file
+import "./App.css"; // External CSS file
 
 function App() {
   const [query, setQuery] = useState(""); // State to hold the search query
@@ -14,11 +14,9 @@ function App() {
     setError(null); // Reset previous errors
 
     try {
-      // Fetching data from OMDB API with the search query
+      // Fetching data from OMDB API using proxy URL
       const response = await fetch(
-        `http://www.omdbapi.com/?apikey=${
-          import.meta.env.VITE_OMDB_API_KEY
-        }&s=${query}`
+        `/api/?apikey=${import.meta.env.VITE_OMDB_API_KEY}&s=${query}`
       );
       const data = await response.json(); // Parse response data
 
