@@ -1,6 +1,6 @@
 {
   "name": "search-movie",
-  "homepage": "http://localhost:5173/stardelitpra",
+  "homepage": "https://4621q.github.io/stardelitprac/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -11,7 +11,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-    
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
